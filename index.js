@@ -20,3 +20,7 @@ function receivesAFunction(callback){
     function returnsANamedFunction (){
         return function namedFunction(){};
       }
+
+      const returnsAnAnonymousFunction = function(){
+        return "returns an anonymous function" , function(){}
+      }
